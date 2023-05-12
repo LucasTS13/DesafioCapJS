@@ -20,9 +20,13 @@ let pessoas = [
     {
         nome: "Leonardo",
         idade: 40
-    },
+    }
 ]
 
-const newArray = pessoas.filter(item => item.nome.startsWith(inicial))
-const media = newArray.reduce((a, b) => a + b.idade / newArray.length, 0)
+const newArray = pessoas
+  .filter(item => item.nome.startsWith(inicial))
+  .map(pessoa => pessoa.nome)
+const media = pessoas
+  .filter(item => item.nome.startsWith(inicial))
+  .reduce((a, b) => a + b.idade / newArray.length, 0)
 console.log(newArray, media)
