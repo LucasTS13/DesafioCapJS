@@ -1,2 +1,2 @@
-# desafiocap
+# DesafioCapJS
 Desafio da capacitação de Javascript
