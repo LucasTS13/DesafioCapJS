@@ -1,2 +1,2 @@
 # DesafioCapJS
-Desafio da capacitação de Javascript do IEEE
+Desafio da capacitação de Javascript do Ramo Estudantil IEEE.
